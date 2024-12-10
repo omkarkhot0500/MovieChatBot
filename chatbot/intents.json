@@ -1,0 +1,1023 @@
+[
+  {
+    "tag": "greeting",
+    "patterns": ["Hi", "Hello", "Hey", "How are you", "What's up"],
+    "responses": [
+      "Hi there",
+      "Hello",
+      "Hey",
+      "I'm fine, thank you",
+      "Nothing much"
+    ]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+    "responses": ["Goodbye", "See you later", "Take care"]
+  },
+  {
+    "tag": "thanks",
+    "patterns": ["Thank you", "Thanks", "Thanks a lot", "I appreciate it"],
+    "responses": ["You're welcome", "No problem", "Glad I could help"]
+  },
+  {
+    "tag": "about",
+    "patterns": [
+      "What can you do",
+      "Who are you",
+      "What are you",
+      "What is your purpose"
+    ],
+    "responses": [
+      "I am a chatbot that recommends movies.",
+      "My purpose is to assist you in finding movies.",
+      "I can suggest movies based on your preferences."
+    ]
+  },
+  {
+    "tag": "help",
+    "patterns": ["Help", "I need help", "Can you help me", "What should I do"],
+    "responses": [
+      "Sure, what do you need help with?",
+      "I'm here to help. What kind of movie recommendations are you looking for?",
+      "How can I assist you with movie recommendations?"
+    ]
+  },
+  {
+    "tag": "recommend_movie",
+    "patterns": [
+      "Can you recommend a movie",
+      "recommend a movie",
+      "recommend me a movie",
+      "Suggest a movie",
+      "I want to watch a movie",
+      "What movie should I watch"
+    ],
+    "responses": [
+      "Sure, what type of movie are you interested in?",
+      "I can recommend movies based on genre, language, or country. What do you prefer?",
+      "Tell me your preferred genre, language, or country for movie recommendations."
+    ]
+  },
+  {
+    "tag": "recommend_movie_english",
+    "patterns": [
+      "Recommend a movie in English",
+      "Suggest an English movie",
+      "I want to watch an English movie",
+      "What are some good English movies"
+    ],
+    "responses": [
+      "I recommend 'Inception'.",
+      "You might enjoy 'The Shawshank Redemption'.",
+      "How about 'The Dark Knight'?",
+      "I suggest 'Forrest Gump'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_spanish",
+    "patterns": [
+      "Recommend a movie in Spanish",
+      "Suggest a Spanish movie",
+      "I want to watch a Spanish movie",
+      "What are some good Spanish movies"
+    ],
+    "responses": [
+      "I recommend 'The Secret in Their Eyes' ('El Secreto de Sus Ojos').",
+      "You might enjoy 'Pan's Labyrinth' ('El Laberinto del Fauno').",
+      "How about 'Y Tu Mamá También'?",
+      "I suggest 'Talk to Her' ('Hable con Ella')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_french",
+    "patterns": [
+      "Recommend a movie in French",
+      "Suggest a French movie",
+      "I want to watch a French movie",
+      "What are some good French movies"
+    ],
+    "responses": [
+      "I recommend 'Amélie'.",
+      "You might enjoy 'La Haine'.",
+      "How about 'Blue Is the Warmest Color' ('La Vie d'Adèle')?",
+      "I suggest 'The Intouchables' ('Intouchables')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_hindi",
+    "patterns": [
+      "Recommend a Hindi movie",
+      "Suggest a Hindi movie",
+      "I want to watch a Hindi movie",
+      "What are some good Hindi movies"
+    ],
+    "responses": [
+      "I recommend '3 Idiots'.",
+      "You might enjoy 'Lagaan'.",
+      "How about 'Dangal'?",
+      "I suggest 'Piku'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_japanese",
+    "patterns": [
+      "Recommend a Japanese movie",
+      "Suggest a Japanese movie",
+      "I want to watch a Japanese movie",
+      "What are some good Japanese movies"
+    ],
+    "responses": [
+      "I recommend 'Spirited Away' ('Sen to Chihiro no Kamikakushi').",
+      "You might enjoy 'Your Name' ('Kimi no Na wa').",
+      "How about 'Rashomon'?",
+      "I suggest 'Seven Samurai' ('Shichinin no Samurai')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_usa",
+    "patterns": [
+      "Recommend a movie from the USA",
+      "Suggest an American movie",
+      "I want to watch an American movie",
+      "What are some good movies from the USA"
+    ],
+    "responses": [
+      "I recommend 'The Shawshank Redemption'.",
+      "You might enjoy 'The Godfather'.",
+      "How about 'Pulp Fiction'?",
+      "I suggest 'The Dark Knight'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_india",
+    "patterns": [
+      "Recommend an Indian movie",
+      "Suggest an Indian movie",
+      "I want to watch an Indian movie",
+      "What are some good Indian movies"
+    ],
+    "responses": [
+      "I recommend 'Lagaan'.",
+      "You might enjoy '3 Idiots'.",
+      "How about 'Dangal'?",
+      "I suggest 'Piku'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_japan",
+    "patterns": [
+      "Recommend a Japanese movie",
+      "Suggest a Japanese movie",
+      "I want to watch a Japanese movie",
+      "What are some good Japanese movies"
+    ],
+    "responses": [
+      "I recommend 'Spirited Away' ('Sen to Chihiro no Kamikakushi').",
+      "You might enjoy 'Your Name' ('Kimi no Na wa').",
+      "How about 'Rashomon'?",
+      "I suggest 'Seven Samurai' ('Shichinin no Samurai')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_france",
+    "patterns": [
+      "Recommend a movie from France",
+      "Suggest a French movie",
+      "I want to watch a French movie",
+      "What are some good movies from France"
+    ],
+    "responses": [
+      "I recommend 'Amélie'.",
+      "You might enjoy 'La Haine'.",
+      "How about 'Blue Is the Warmest Color' ('La Vie d'Adèle')?",
+      "I suggest 'The Intouchables' ('Intouchables')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_german",
+    "patterns": [
+      "Recommend a movie in German",
+      "Suggest a German movie",
+      "I want to watch a German movie",
+      "What are some good German movies"
+    ],
+    "responses": [
+      "I recommend 'Good Bye Lenin!'.",
+      "You might enjoy 'The Lives of Others' ('Das Leben der Anderen').",
+      "How about 'Run Lola Run' ('Lola rennt')?",
+      "I suggest 'Downfall' ('Der Untergang')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_italian",
+    "patterns": [
+      "Recommend a movie in Italian",
+      "Suggest an Italian movie",
+      "I want to watch an Italian movie",
+      "What are some good Italian movies"
+    ],
+    "responses": [
+      "I recommend 'Life is Beautiful' ('La vita è bella').",
+      "You might enjoy 'Cinema Paradiso'.",
+      "How about 'The Great Beauty' ('La grande bellezza')?",
+      "I suggest 'Gomorrah' ('Gomorra')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_korean",
+    "patterns": [
+      "Recommend a movie in Korean",
+      "Suggest a Korean movie",
+      "I want to watch a Korean movie",
+      "What are some good Korean movies"
+    ],
+    "responses": [
+      "I recommend 'Parasite' ('Gisaengchung').",
+      "You might enjoy 'Oldboy'.",
+      "How about 'Train to Busan'?",
+      "I suggest 'The Handmaiden' ('Ah-ga-ssi')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_chinese",
+    "patterns": [
+      "Recommend a movie in Chinese",
+      "Suggest a Chinese movie",
+      "I want to watch a Chinese movie",
+      "What are some good Chinese movies"
+    ],
+    "responses": [
+      "I recommend 'Crouching Tiger, Hidden Dragon' ('Wo hu cang long').",
+      "You might enjoy 'Hero' ('Ying xiong').",
+      "How about 'In the Mood for Love' ('Fa yeung nin wa')?",
+      "I suggest 'Raise the Red Lantern' ('Da hong deng long gao gao gua')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_russian",
+    "patterns": [
+      "Recommend a movie in Russian",
+      "Suggest a Russian movie",
+      "I want to watch a Russian movie",
+      "What are some good Russian movies"
+    ],
+    "responses": [
+      "I recommend 'Leviathan' ('Leviafan').",
+      "You might enjoy 'The Return' ('Vozvrashchenie').",
+      "How about 'Andrei Rublev'?",
+      "I suggest 'Battleship Potemkin' ('Bronenosets Potyomkin')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_brazilian",
+    "patterns": [
+      "Recommend a movie in Portuguese",
+      "Suggest a Brazilian movie",
+      "I want to watch a Brazilian movie",
+      "What are some good Brazilian movies"
+    ],
+    "responses": [
+      "I recommend 'City of God' ('Cidade de Deus').",
+      "You might enjoy 'Elite Squad' ('Tropa de Elite').",
+      "How about 'Central Station' ('Central do Brasil')?",
+      "I suggest 'Neighboring Sounds' ('O Som ao Redor')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_mexican",
+    "patterns": [
+      "Recommend a Mexican movie",
+      "Suggest a Mexican movie",
+      "I want to watch a Mexican movie",
+      "What are some good Mexican movies"
+    ],
+    "responses": [
+      "I recommend 'Roma'.",
+      "You might enjoy 'Amores Perros'.",
+      "How about 'The Shape of Water' (directed by Guillermo del Toro)?",
+      "I suggest 'Pan's Labyrinth' ('El Laberinto del Fauno')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_uk",
+    "patterns": [
+      "Recommend a movie from the UK",
+      "Suggest a British movie",
+      "I want to watch a British movie",
+      "What are some good movies from the UK"
+    ],
+    "responses": [
+      "I recommend 'The King's Speech'.",
+      "You might enjoy 'Trainspotting'.",
+      "How about 'Atonement'?",
+      "I suggest 'Slumdog Millionaire' (although set in India, it's a British production)."
+    ]
+  },
+  {
+    "tag": "recommend_movie_australia",
+    "patterns": [
+      "Recommend an Australian movie",
+      "Suggest an Australian movie",
+      "I want to watch an Australian movie",
+      "What are some good Australian movies"
+    ],
+    "responses": [
+      "I recommend 'Mad Max: Fury Road'.",
+      "You might enjoy 'The Babadook'.",
+      "How about 'Lion'?",
+      "I suggest 'Crocodile Dundee'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_italy",
+    "patterns": [
+      "Recommend an Italian movie",
+      "Suggest an Italian movie",
+      "I want to watch an Italian movie",
+      "What are some good Italian movies"
+    ],
+    "responses": [
+      "I recommend 'Life is Beautiful' ('La vita è bella').",
+      "You might enjoy 'Cinema Paradiso'.",
+      "How about 'The Great Beauty' ('La grande bellezza')?",
+      "I suggest 'Gomorrah' ('Gomorra')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_spain",
+    "patterns": [
+      "Recommend a movie from Spain",
+      "Suggest a Spanish movie",
+      "I want to watch a Spanish movie",
+      "What are some good movies from Spain"
+    ],
+    "responses": [
+      "I recommend 'The Secret in Their Eyes' ('El Secreto de Sus Ojos').",
+      "You might enjoy 'Pan's Labyrinth' ('El Laberinto del Fauno').",
+      "How about 'Y Tu Mamá También'?",
+      "I suggest 'Talk to Her' ('Hable con Ella')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_south_korea",
+    "patterns": [
+      "Recommend a movie from South Korea",
+      "Suggest a South Korean movie",
+      "I want to watch a South Korean movie",
+      "What are some good movies from South Korea"
+    ],
+    "responses": [
+      "I recommend 'Parasite' ('Gisaengchung').",
+      "You might enjoy 'Oldboy'.",
+      "How about 'Train to Busan'?",
+      "I suggest 'The Handmaiden' ('Ah-ga-ssi')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_china",
+    "patterns": [
+      "Recommend a movie from China",
+      "Suggest a Chinese movie",
+      "I want to watch a Chinese movie",
+      "What are some good movies from China"
+    ],
+    "responses": [
+      "I recommend 'Crouching Tiger, Hidden Dragon' ('Wo hu cang long').",
+      "You might enjoy 'Hero' ('Ying xiong').",
+      "How about 'In the Mood for Love' ('Fa yeung nin wa')?",
+      "I suggest 'Raise the Red Lantern' ('Da hong deng long gao gao gua')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_russia",
+    "patterns": [
+      "Recommend a movie from Russia",
+      "Suggest a Russian movie",
+      "I want to watch a Russian movie",
+      "What are some good movies from Russia"
+    ],
+    "responses": [
+      "I recommend 'Leviathan' ('Leviafan').",
+      "You might enjoy 'The Return' ('Vozvrashchenie').",
+      "How about 'Andrei Rublev'?",
+      "I suggest 'Battleship Potemkin' ('Bronenosets Potyomkin')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_brazil",
+    "patterns": [
+      "Recommend a movie from Brazil",
+      "Suggest a Brazilian movie",
+      "I want to watch a Brazilian movie",
+      "What are some good movies from Brazil"
+    ],
+    "responses": [
+      "I recommend 'City of God' ('Cidade de Deus').",
+      "You might enjoy 'Elite Squad' ('Tropa de Elite').",
+      "How about 'Central Station' ('Central do Brasil')?",
+      "I suggest 'Neighboring Sounds' ('O Som ao Redor')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_mexico",
+    "patterns": [
+      "Recommend a movie from Mexico",
+      "Suggest a Mexican movie",
+      "I want to watch a Mexican movie",
+      "What are some good movies from Mexico"
+    ],
+    "responses": [
+      "I recommend 'Roma'.",
+      "You might enjoy 'Amores Perros'.",
+      "How about 'The Shape of Water' (directed by Guillermo del Toro)?",
+      "I suggest 'Pan's Labyrinth' ('El Laberinto del Fauno')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_turkish",
+    "patterns": [
+      "Recommend a movie in Turkish",
+      "Suggest a Turkish movie",
+      "I want to watch a Turkish movie",
+      "What are some good Turkish movies"
+    ],
+    "responses": [
+      "I recommend 'Winter Sleep' ('Kış Uykusu').",
+      "You might enjoy 'Once Upon a Time in Anatolia' ('Bir Zamanlar Anadolu'da').",
+      "How about 'Mustang'?",
+      "I suggest 'The Wild Pear Tree' ('Ahlat Ağacı')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_swedish",
+    "patterns": [
+      "Recommend a movie in Swedish",
+      "Suggest a Swedish movie",
+      "I want to watch a Swedish movie",
+      "What are some good Swedish movies"
+    ],
+    "responses": [
+      "I recommend 'The Seventh Seal' ('Det sjunde inseglet').",
+      "You might enjoy 'Let the Right One In' ('Låt den rätte komma in').",
+      "How about 'Fanny and Alexander' ('Fanny och Alexander')?",
+      "I suggest 'Force Majeure' ('Turist')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_danish",
+    "patterns": [
+      "Recommend a movie in Danish",
+      "Suggest a Danish movie",
+      "I want to watch a Danish movie",
+      "What are some good Danish movies"
+    ],
+    "responses": [
+      "I recommend 'The Hunt' ('Jagten').",
+      "You might enjoy 'A Royal Affair' ('En kongelig affære').",
+      "How about 'Pusher'?",
+      "I suggest 'A Hijacking' ('Kapringen')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_iranian",
+    "patterns": [
+      "Recommend a movie in Persian",
+      "Suggest an Iranian movie",
+      "I want to watch an Iranian movie",
+      "What are some good Iranian movies"
+    ],
+    "responses": [
+      "I recommend 'A Separation' ('Jodaeiye Nader az Simin').",
+      "You might enjoy 'The Salesman' ('Forushande').",
+      "How about 'Children of Heaven' ('Bacheha-Ye Aseman')?",
+      "I suggest 'Taste of Cherry' ('Ta'm e guilass')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_argentine",
+    "patterns": [
+      "Recommend a movie in Spanish from Argentina",
+      "Suggest an Argentine movie",
+      "I want to watch an Argentine movie",
+      "What are some good Argentine movies"
+    ],
+    "responses": [
+      "I recommend 'The Secret in Their Eyes' ('El Secreto de Sus Ojos').",
+      "You might enjoy 'Wild Tales' ('Relatos salvajes').",
+      "How about 'Nine Queens' ('Nueve reinas')?",
+      "I suggest 'The Official Story' ('La historia oficial')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_polish",
+    "patterns": [
+      "Recommend a movie in Polish",
+      "Suggest a Polish movie",
+      "I want to watch a Polish movie",
+      "What are some good Polish movies"
+    ],
+    "responses": [
+      "I recommend 'Ida'.",
+      "You might enjoy 'Cold War' ('Zimna wojna').",
+      "How about 'The Pianist'?",
+      "I suggest 'Man of Marble' ('Człowiek z marmuru')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_indonesian",
+    "patterns": [
+      "Recommend a movie in Indonesian",
+      "Suggest an Indonesian movie",
+      "I want to watch an Indonesian movie",
+      "What are some good Indonesian movies"
+    ],
+    "responses": [
+      "I recommend 'The Raid: Redemption' ('Serbuan maut').",
+      "You might enjoy 'Marlina the Murderer in Four Acts' ('Marlina si Pembunuh dalam Empat Babak').",
+      "How about 'The Raid 2' ('The Raid 2: Berandal')?",
+      "I suggest 'Laskar Pelangi' ('The Rainbow Troops')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_thai",
+    "patterns": [
+      "Recommend a movie in Thai",
+      "Suggest a Thai movie",
+      "I want to watch a Thai movie",
+      "What are some good Thai movies"
+    ],
+    "responses": [
+      "I recommend 'Uncle Boonmee Who Can Recall His Past Lives' ('ลุงบุญมีระลึกชาติ').",
+      "You might enjoy 'Ong-Bak: The Thai Warrior'.",
+      "How about 'Bad Genius' ('ฉลาดเกมส์โกง')?",
+      "I suggest 'Shutter' ('ชัตเตอร์ กดติดวิญญาณ')."
+    ]
+  },
+  {
+    "tag": "recommend_movie_nigerian",
+    "patterns": [
+      "Recommend a movie in Nigerian",
+      "Suggest a Nigerian movie",
+      "I want to watch a Nigerian movie",
+      "What are some good Nigerian movies"
+    ],
+    "responses": [
+      "I recommend 'Lionheart'.",
+      "You might enjoy 'The Figurine'.",
+      "How about 'Half of a Yellow Sun'?",
+      "I suggest 'October 1'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_egyptian",
+    "patterns": [
+      "Recommend a movie in Arabic from Egypt",
+      "Suggest an Egyptian movie",
+      "I want to watch an Egyptian movie",
+      "What are some good Egyptian movies"
+    ],
+    "responses": [
+      "I recommend 'The Yacoubian Building' ('عمارة يعقوبيان').",
+      "You might enjoy 'Cairo Station' ('باب الحديد').",
+      "How about 'The Mummy' ('المومياء')?",
+      "I suggest 'Sheikh Jackson'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_pakistani",
+    "patterns": [
+      "Recommend a movie in Urdu",
+      "Suggest a Pakistani movie",
+      "I want to watch a Pakistani movie",
+      "What are some good Pakistani movies"
+    ],
+    "responses": [
+      "I recommend 'Bol'.",
+      "You might enjoy 'Khuda Kay Liye'.",
+      "How about 'Cake'?",
+      "I suggest 'Moor'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_action",
+    "patterns": [
+      "Recommend an action movie",
+      "Suggest an action movie",
+      "I want to watch an action movie",
+      "What are some good action movies"
+    ],
+    "responses": [
+      "I recommend 'Mad Max: Fury Road'.",
+      "You might enjoy 'John Wick'.",
+      "How about 'The Dark Knight'?",
+      "I suggest 'Gladiator'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_comedy",
+    "patterns": [
+      "Recommend a comedy movie",
+      "Suggest a comedy movie",
+      "I want to watch a comedy movie",
+      "What are some good comedy movies"
+    ],
+    "responses": [
+      "I recommend 'Superbad'.",
+      "You might enjoy 'The Grand Budapest Hotel'.",
+      "How about 'Step Brothers'?",
+      "I suggest 'Groundhog Day'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_drama",
+    "patterns": [
+      "Recommend a drama movie",
+      "Suggest a drama movie",
+      "I want to watch a drama movie",
+      "What are some good drama movies"
+    ],
+    "responses": [
+      "I recommend 'The Shawshank Redemption'.",
+      "You might enjoy 'Forrest Gump'.",
+      "How about 'The Godfather'?",
+      "I suggest 'A Beautiful Mind'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_horror",
+    "patterns": [
+      "Recommend a horror movie",
+      "Suggest a horror movie",
+      "I want to watch a horror movie",
+      "What are some good horror movies"
+    ],
+    "responses": [
+      "I recommend 'The Exorcist'.",
+      "You might enjoy 'Get Out'.",
+      "How about 'A Nightmare on Elm Street'?",
+      "I suggest 'Hereditary'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_scifi",
+    "patterns": [
+      "Recommend a sci-fi movie",
+      "Suggest a sci-fi movie",
+      "I want to watch a sci-fi movie",
+      "What are some good sci-fi movies"
+    ],
+    "responses": [
+      "I recommend 'Inception'.",
+      "You might enjoy 'Blade Runner 2049'.",
+      "How about 'Interstellar'?",
+      "I suggest 'The Matrix'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_romance",
+    "patterns": [
+      "Recommend a romance movie",
+      "Suggest a romance movie",
+      "I want to watch a romance movie",
+      "What are some good romance movies"
+    ],
+    "responses": [
+      "I recommend 'The Notebook'.",
+      "You might enjoy 'Pride and Prejudice'.",
+      "How about 'La La Land'?",
+      "I suggest 'A Walk to Remember'."
+    ]
+  },
+  {
+    "tag": "movie_trivia",
+    "patterns": [
+      "Tell me a movie trivia",
+      "Give me a movie fact",
+      "I want to hear a movie trivia",
+      "Can you share a movie fact"
+    ],
+    "responses": [
+      "Did you know 'The Godfather' used real horse heads in its iconic bed scene?",
+      "The longest movie ever made is 'Logistics', which is 857 hours long.",
+      "In 'Jurassic Park', the sound of the Velociraptors communicating is actually the sound of tortoises mating.",
+      "The famous bench scene in 'Forrest Gump' was filmed in Savannah, Georgia."
+    ]
+  },
+  {
+    "tag": "recommend_movie_80s",
+    "patterns": [
+      "Recommend a movie from the 80s",
+      "Suggest an 80s movie",
+      "I want to watch a movie from the 80s",
+      "What are some good movies from the 80s"
+    ],
+    "responses": [
+      "I recommend 'Back to the Future'.",
+      "You might enjoy 'E.T. the Extra-Terrestrial'.",
+      "How about 'The Shining'?",
+      "I suggest 'Die Hard'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_90s",
+    "patterns": [
+      "Recommend a movie from the 90s",
+      "Suggest a 90s movie",
+      "I want to watch a movie from the 90s",
+      "What are some good movies from the 90s"
+    ],
+    "responses": [
+      "I recommend 'Pulp Fiction'.",
+      "You might enjoy 'The Matrix'.",
+      "How about 'Fight Club'?",
+      "I suggest 'Titanic'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_2000s",
+    "patterns": [
+      "Recommend a movie from the 2000s",
+      "Suggest a 2000s movie",
+      "I want to watch a movie from the 2000s",
+      "What are some good movies from the 2000s"
+    ],
+    "responses": [
+      "I recommend 'The Dark Knight'.",
+      "You might enjoy 'Gladiator'.",
+      "How about 'No Country for Old Men'?",
+      "I suggest 'The Lord of the Rings: The Return of the King'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_nolan",
+    "patterns": [
+      "Recommend a Christopher Nolan movie",
+      "Suggest a movie by Christopher Nolan",
+      "I want to watch a Christopher Nolan film",
+      "What are some good movies by Christopher Nolan"
+    ],
+    "responses": [
+      "I recommend 'Inception'.",
+      "You might enjoy 'The Dark Knight'.",
+      "How about 'Interstellar'?",
+      "I suggest 'Memento'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_spielberg",
+    "patterns": [
+      "Recommend a Steven Spielberg movie",
+      "Suggest a movie by Steven Spielberg",
+      "I want to watch a Steven Spielberg film",
+      "What are some good movies by Steven Spielberg"
+    ],
+    "responses": [
+      "I recommend 'Jurassic Park'.",
+      "You might enjoy 'E.T. the Extra-Terrestrial'.",
+      "How about 'Saving Private Ryan'?",
+      "I suggest 'Schindler's List'."
+    ]
+  },
+  {
+    "tag": "recommend_recent_movie_2024",
+    "patterns": [
+      "Recommend a recent movie from 2024",
+      "Recommend a recent movie",
+      "Suggest a 2024 movie",
+      "I want to watch a new movie from 2024",
+      "What are some good movies from 2024"
+    ],
+    "responses": [
+      "I recommend 'Dune: Part Two'.",
+      "You might enjoy 'Oppenheimer'.",
+      "How about 'Spider-Man: Beyond the Spider-Verse'?",
+      "I suggest 'Indiana Jones and the Dial of Destiny'."
+    ]
+  },
+  {
+    "tag": "recommend_recent_movie_2023",
+    "patterns": [
+      "Recommend a recent movie from 2023",
+      "Suggest a 2023 movie",
+      "I want to watch a new movie from 2023",
+      "What are some good movies from 2023"
+    ],
+    "responses": [
+      "I recommend 'Barbie'.",
+      "You might enjoy 'Guardians of the Galaxy Vol. 3'.",
+      "How about 'Oppenheimer'?",
+      "I suggest 'Mission: Impossible - Dead Reckoning Part One'."
+    ]
+  },
+  {
+    "tag": "recommend_recent_movie_2022",
+    "patterns": [
+      "Recommend a recent movie from 2022",
+      "Suggest a 2022 movie",
+      "I want to watch a new movie from 2022",
+      "What are some good movies from 2022"
+    ],
+    "responses": [
+      "I recommend 'Top Gun: Maverick'.",
+      "You might enjoy 'The Batman'.",
+      "How about 'Everything Everywhere All at Once'?",
+      "I suggest 'Avatar: The Way of Water'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_thriller",
+    "patterns": [
+      "Recommend a thriller movie",
+      "Suggest a thriller movie",
+      "I want to watch a thriller movie",
+      "What are some good thriller movies"
+    ],
+    "responses": [
+      "I recommend 'Seven'.",
+      "You might enjoy 'Gone Girl'.",
+      "How about 'Shutter Island'?",
+      "I suggest 'The Silence of the Lambs'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_animation",
+    "patterns": [
+      "Recommend an animated movie",
+      "Suggest an animated movie",
+      "I want to watch an animated movie",
+      "What are some good animated movies"
+    ],
+    "responses": [
+      "I recommend 'Toy Story'.",
+      "You might enjoy 'Spirited Away'.",
+      "How about 'Zootopia'?",
+      "I suggest 'Coco'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_fantasy",
+    "patterns": [
+      "Recommend a fantasy movie",
+      "Suggest a fantasy movie",
+      "I want to watch a fantasy movie",
+      "What are some good fantasy movies"
+    ],
+    "responses": [
+      "I recommend 'The Lord of the Rings: The Fellowship of the Ring'.",
+      "You might enjoy 'Harry Potter and the Sorcerer's Stone'.",
+      "How about 'Pan's Labyrinth'?",
+      "I suggest 'The Princess Bride'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_mystery",
+    "patterns": [
+      "Recommend a mystery movie",
+      "Suggest a mystery movie",
+      "I want to watch a mystery movie",
+      "What are some good mystery movies"
+    ],
+    "responses": [
+      "I recommend 'Knives Out'.",
+      "You might enjoy 'Memento'.",
+      "How about 'The Girl with the Dragon Tattoo'?",
+      "I suggest 'Prisoners'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_documentary",
+    "patterns": [
+      "Recommend a documentary movie",
+      "Suggest a documentary movie",
+      "I want to watch a documentary movie",
+      "What are some good documentary movies"
+    ],
+    "responses": [
+      "I recommend '13th'.",
+      "You might enjoy 'Won't You Be My Neighbor?'.",
+      "How about 'Blackfish'?",
+      "I suggest 'Free Solo'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_adventure",
+    "patterns": [
+      "Recommend an adventure movie",
+      "Suggest an adventure movie",
+      "I want to watch an adventure movie",
+      "What are some good adventure movies"
+    ],
+    "responses": [
+      "I recommend 'Indiana Jones: Raiders of the Lost Ark'.",
+      "You might enjoy 'Jurassic Park'.",
+      "How about 'The Hobbit: An Unexpected Journey'?",
+      "I suggest 'The Revenant'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_biography",
+    "patterns": [
+      "Recommend a biography movie",
+      "Suggest a biography movie",
+      "I want to watch a biography movie",
+      "What are some good biography movies"
+    ],
+    "responses": [
+      "I recommend 'The Social Network'.",
+      "You might enjoy 'A Beautiful Mind'.",
+      "How about 'Bohemian Rhapsody'?",
+      "I suggest 'The Theory of Everything'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_crime",
+    "patterns": [
+      "Recommend a crime movie",
+      "Suggest a crime movie",
+      "I want to watch a crime movie",
+      "What are some good crime movies"
+    ],
+    "responses": [
+      "I recommend 'The Godfather'.",
+      "You might enjoy 'Pulp Fiction'.",
+      "How about 'The Departed'?",
+      "I suggest 'Goodfellas'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_family",
+    "patterns": [
+      "Recommend a family movie",
+      "Suggest a family movie",
+      "I want to watch a family movie",
+      "What are some good family movies"
+    ],
+    "responses": [
+      "I recommend 'Finding Nemo'.",
+      "You might enjoy 'The Lion King'.",
+      "How about 'Toy Story'?",
+      "I suggest 'The Incredibles'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_history",
+    "patterns": [
+      "Recommend a historical movie",
+      "Suggest a historical movie",
+      "I want to watch a historical movie",
+      "What are some good historical movies"
+    ],
+    "responses": [
+      "I recommend 'Schindler's List'.",
+      "You might enjoy 'Gladiator'.",
+      "How about 'Braveheart'?",
+      "I suggest 'Lincoln'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_musical",
+    "patterns": [
+      "Recommend a musical movie",
+      "Suggest a musical movie",
+      "I want to watch a musical movie",
+      "What are some good musical movies"
+    ],
+    "responses": [
+      "I recommend 'La La Land'.",
+      "You might enjoy 'The Greatest Showman'.",
+      "How about 'Moulin Rouge!'?",
+      "I suggest 'Chicago'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_war",
+    "patterns": [
+      "Recommend a war movie",
+      "Suggest a war movie",
+      "I want to watch a war movie",
+      "What are some good war movies"
+    ],
+    "responses": [
+      "I recommend 'Saving Private Ryan'.",
+      "You might enjoy 'Full Metal Jacket'.",
+      "How about 'Dunkirk'?",
+      "I suggest 'Platoon'."
+    ]
+  },
+  {
+    "tag": "recommend_movie_genre_western",
+    "patterns": [
+      "Recommend a western movie",
+      "Suggest a western movie",
+      "I want to watch a western movie",
+      "What are some good western movies"
+    ],
+    "responses": [
+      "I recommend 'The Good, the Bad and the Ugly'.",
+      "You might enjoy 'Django Unchained'.",
+      "How about 'Unforgiven'?",
+      "I suggest 'True Grit'."
+    ]
+  }
+]
